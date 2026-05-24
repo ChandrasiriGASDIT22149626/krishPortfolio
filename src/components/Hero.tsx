@@ -118,14 +118,14 @@ export function Hero() {
                 repeat: Infinity,
                 ease: 'easeInOut'
               }}
-              className="absolute top-16 -left-8 glass-card px-4 py-3 rounded-xl flex items-center gap-3">
+              className="absolute z-20 -top-4 -left-2 md:top-16 md:-left-8 glass-card px-3 py-2 md:px-4 md:py-3 rounded-xl flex items-center gap-2 md:gap-3 scale-90 md:scale-100">
 
-              <div className="w-10 h-10 rounded-full bg-neon-purple/20 flex items-center justify-center text-neon-purple">
+              <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-neon-purple/20 flex items-center justify-center text-neon-purple text-sm md:text-base">
                 ✦
               </div>
               <div>
-                <p className="text-xs text-gray-400">Expert in</p>
-                <p className="text-sm font-bold">Digital Marketing</p>
+                <p className="text-[10px] md:text-xs text-gray-400">Expert in</p>
+                <p className="text-xs md:text-sm font-bold whitespace-nowrap">Digital Marketing</p>
               </div>
             </motion.div>
 
@@ -139,14 +139,14 @@ export function Hero() {
                 ease: 'easeInOut',
                 delay: 1
               }}
-              className="absolute bottom-16 -right-8 glass-card px-4 py-3 rounded-xl flex items-center gap-3">
+              className="absolute z-20 -bottom-4 -right-2 md:bottom-16 md:-right-8 glass-card px-3 py-2 md:px-4 md:py-3 rounded-xl flex items-center gap-2 md:gap-3 scale-90 md:scale-100">
 
-              <div className="w-10 h-10 rounded-full bg-neon-cyan/20 flex items-center justify-center text-neon-cyan">
+              <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-neon-cyan/20 flex items-center justify-center text-neon-cyan text-sm md:text-base">
                 🎨
               </div>
               <div>
-                <p className="text-xs text-gray-400">Creative</p>
-                <p className="text-sm font-bold">Graphic Design</p>
+                <p className="text-[10px] md:text-xs text-gray-400">Creative</p>
+                <p className="text-xs md:text-sm font-bold whitespace-nowrap">Graphic Design</p>
               </div>
             </motion.div>
           </div>
